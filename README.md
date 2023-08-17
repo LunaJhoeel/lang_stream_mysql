@@ -1,4 +1,4 @@
-# Containerize and deploy the Flask app
+# Containerize and deploy the Streamlit app
 docker-compose up
 
 # Error database 'tech_stack_db' does not exist
