@@ -12,4 +12,4 @@ create database tech_stack_db;
 create table tech_stack_db.tech_stack_table (component varchar(255));
 
 INSERT INTO tech_stack_db.tech_stack_table (component) VALUES ('Test');
-DE
+DELETE FROM tech_stack_db.tech_stack_table WHERE component = 'Test';
